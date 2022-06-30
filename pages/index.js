@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Mynavbar from '../components/Mynavbar'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Mynavbar />
         <h1 className={styles.title}>
           Welcome to <a href="https://www.youtube.com/channel/UCtvr7uwDVkNbMDGKUrd-8ug">My Website</a>
         </h1>
